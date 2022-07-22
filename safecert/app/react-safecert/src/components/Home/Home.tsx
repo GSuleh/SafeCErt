@@ -1,9 +1,5 @@
 import { HomeWrapper, HomeTitle, HomeInput, HomeLabel } from "./Home.styles";
-<<<<<<< HEAD
 import HomeImage from "../../images/desktop/image-home.png";
-=======
-import HomeImage from "../../images/desktop/image-home.jpg";
->>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
 import React from "react";
 import MediaQuery from "react-responsive";
 
@@ -38,7 +34,6 @@ const Home = () => {
             </HomeLabel>
           </div>
           <div>
-<<<<<<< HEAD
               <input style={{
                 width: "200px",
                 fontSize: "16px",
@@ -48,9 +43,6 @@ const Home = () => {
                 margin: "15px auto",
               }}
               type="submit" value="Verify" />
-=======
-              <input type="submit" value="Verify" />
->>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
           </div>
           </HomeTitle>
         </HomeWrapper>

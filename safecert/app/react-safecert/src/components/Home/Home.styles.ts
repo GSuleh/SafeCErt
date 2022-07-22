@@ -3,7 +3,10 @@ type HomeWrapperType = {
   img: any;
 };
 const HomeWrapper = styled.div<HomeWrapperType>`
+<<<<<<< HEAD
   
+=======
+>>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
   padding-bottom:3vh;
   width: 100%;
   height: 768px;
@@ -19,9 +22,15 @@ const HomeTitle = styled.div`
 
   color: #533BFF;
   border: 1px solid #533BFF;
+<<<<<<< HEAD
   padding: 10vh 5vw 5ch 5vw;
   width: 40.3vw;
   height: 50vh;
+=======
+  padding: 5vh 5vw 5ch 5vw;
+  width: 45.3vw;
+  height: 40vh;
+>>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
   z-index: 1;
   @media (max-width: 400px) {
     font-size: 1.75rem;

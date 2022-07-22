@@ -6,6 +6,7 @@ declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 pub mod safecert {
     use super::*;
 
+<<<<<<< HEAD
     pub fn setup_platform(ctx: Context<CertificatesPlatform>) -> Result<()> {
         let certificate = &mut ctx.accounts.certificate;
         certificate.ipfshash = ("").to_string();
@@ -59,3 +60,12 @@ pub struct Certificate {
     pub owner: Pubkey,
 }
 
+=======
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        Ok(())
+    }
+}
+
+#[derive(Accounts)]
+pub struct Initialize {}
+>>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4

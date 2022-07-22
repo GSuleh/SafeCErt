@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@project-serum/anchor": "^0.25.0",
     "@solana/spl-token": "^0.2.0",
     "@solana/wallet-adapter-react": "^0.15.8",
     "@solana/wallet-adapter-react-ui": "^0.9.10",
     "@solana/wallet-adapter-wallets": "^0.16.8",
+=======
+    "@solana/spl-token": "^0.2.0",
+>>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
     "@solana/web3.js": "^1.48.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -19,7 +23,10 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.25",
     "buffer": "^6.0.3",
+<<<<<<< HEAD
     "minireset.css": "^0.0.7",
+=======
+>>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-responsive": "^9.0.0-beta.10",

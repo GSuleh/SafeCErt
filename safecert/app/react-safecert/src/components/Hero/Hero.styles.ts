@@ -5,7 +5,11 @@ type HeroWrapperType = {
 const HeroWrapper = styled.div<HeroWrapperType>`
   padding-bottom:3vh;
   width: 100%;
+<<<<<<< HEAD
   height: 1020px;
+=======
+  height: 768px;
+>>>>>>> c45fd14e20dc35bd9c85c9c7714e1a0e3248cea4
   background-image: url(${({ img }) => img});
   background-size: 100%;
   background-repeat: no-repeat;
